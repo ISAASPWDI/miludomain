@@ -1,0 +1,97 @@
+body{
+    background-image: url(1192080.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.box h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #E7C21B;
+    text-align: center;
+}
+.btn1 button{
+    padding: 15px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: #20E1F1;
+    margin-right: 100px;
+}
+.btn2 button{
+    padding: 15px 26px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: #C70039;
+    margin-left: 20px;
+}
+.yesbtn{
+    transform: translate(-100%,0);
+}
+.nobtn{
+    position: absolute;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.disculpas summary{
+    color: yellowgreen;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.disculpas p{
+    color: aliceblue;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.disculpas details{
+    cursor: pointer;
+}
+.box-uno{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 500px;
+}
+.fix{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 300px;
+}
+.disculpas img{
+    margin-left: 90px;
+}
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: whitesmoke;
+    padding: 5px 20px;
+    margin-right: 650px;
+    background-size: 100px;
+    cursor: pointer;
+}
+header summary{
+    color: #ff781f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+}
+header h2{
+    background-color: #404040;
+    padding: 20px 30px;
+    border-radius: 1rem;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.intro-dos embed{
+    border-radius: 1rem;
+}
